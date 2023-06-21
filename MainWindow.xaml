@@ -1,0 +1,22 @@
+﻿<Window x:Name="Windows" x:Class="HostingWfInWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HostingWfInWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Windows_Loaded">
+    <Grid Name="grid1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="741*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel>
+
+        </StackPanel>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="228,152,0,0" VerticalAlignment="Top" Height="125" Width="226" Click="Button_Click"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="521,146,0,0" VerticalAlignment="Top" Height="136" Width="171" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
